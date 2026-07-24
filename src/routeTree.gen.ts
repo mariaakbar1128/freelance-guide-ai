@@ -9,8 +9,56 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as SkillMatchRouteImport } from './routes/skill-match'
+import { Route as RoadmapRouteImport } from './routes/roadmap'
+import { Route as ResourcesRouteImport } from './routes/resources'
+import { Route as ReplyRouteImport } from './routes/reply'
+import { Route as ReadinessRouteImport } from './routes/readiness'
+import { Route as ProposalRouteImport } from './routes/proposal'
+import { Route as PricingRouteImport } from './routes/pricing'
+import { Route as GigRouteImport } from './routes/gig'
 import { Route as IndexRouteImport } from './routes/index'
 
+const SkillMatchRoute = SkillMatchRouteImport.update({
+  id: '/skill-match',
+  path: '/skill-match',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RoadmapRoute = RoadmapRouteImport.update({
+  id: '/roadmap',
+  path: '/roadmap',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ResourcesRoute = ResourcesRouteImport.update({
+  id: '/resources',
+  path: '/resources',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ReplyRoute = ReplyRouteImport.update({
+  id: '/reply',
+  path: '/reply',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ReadinessRoute = ReadinessRouteImport.update({
+  id: '/readiness',
+  path: '/readiness',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ProposalRoute = ProposalRouteImport.update({
+  id: '/proposal',
+  path: '/proposal',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PricingRoute = PricingRouteImport.update({
+  id: '/pricing',
+  path: '/pricing',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GigRoute = GigRouteImport.update({
+  id: '/gig',
+  path: '/gig',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
@@ -19,28 +67,144 @@ const IndexRoute = IndexRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/gig': typeof GigRoute
+  '/pricing': typeof PricingRoute
+  '/proposal': typeof ProposalRoute
+  '/readiness': typeof ReadinessRoute
+  '/reply': typeof ReplyRoute
+  '/resources': typeof ResourcesRoute
+  '/roadmap': typeof RoadmapRoute
+  '/skill-match': typeof SkillMatchRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/gig': typeof GigRoute
+  '/pricing': typeof PricingRoute
+  '/proposal': typeof ProposalRoute
+  '/readiness': typeof ReadinessRoute
+  '/reply': typeof ReplyRoute
+  '/resources': typeof ResourcesRoute
+  '/roadmap': typeof RoadmapRoute
+  '/skill-match': typeof SkillMatchRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/gig': typeof GigRoute
+  '/pricing': typeof PricingRoute
+  '/proposal': typeof ProposalRoute
+  '/readiness': typeof ReadinessRoute
+  '/reply': typeof ReplyRoute
+  '/resources': typeof ResourcesRoute
+  '/roadmap': typeof RoadmapRoute
+  '/skill-match': typeof SkillMatchRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/gig'
+    | '/pricing'
+    | '/proposal'
+    | '/readiness'
+    | '/reply'
+    | '/resources'
+    | '/roadmap'
+    | '/skill-match'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/gig'
+    | '/pricing'
+    | '/proposal'
+    | '/readiness'
+    | '/reply'
+    | '/resources'
+    | '/roadmap'
+    | '/skill-match'
+  id:
+    | '__root__'
+    | '/'
+    | '/gig'
+    | '/pricing'
+    | '/proposal'
+    | '/readiness'
+    | '/reply'
+    | '/resources'
+    | '/roadmap'
+    | '/skill-match'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  GigRoute: typeof GigRoute
+  PricingRoute: typeof PricingRoute
+  ProposalRoute: typeof ProposalRoute
+  ReadinessRoute: typeof ReadinessRoute
+  ReplyRoute: typeof ReplyRoute
+  ResourcesRoute: typeof ResourcesRoute
+  RoadmapRoute: typeof RoadmapRoute
+  SkillMatchRoute: typeof SkillMatchRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/skill-match': {
+      id: '/skill-match'
+      path: '/skill-match'
+      fullPath: '/skill-match'
+      preLoaderRoute: typeof SkillMatchRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/roadmap': {
+      id: '/roadmap'
+      path: '/roadmap'
+      fullPath: '/roadmap'
+      preLoaderRoute: typeof RoadmapRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/resources': {
+      id: '/resources'
+      path: '/resources'
+      fullPath: '/resources'
+      preLoaderRoute: typeof ResourcesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/reply': {
+      id: '/reply'
+      path: '/reply'
+      fullPath: '/reply'
+      preLoaderRoute: typeof ReplyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/readiness': {
+      id: '/readiness'
+      path: '/readiness'
+      fullPath: '/readiness'
+      preLoaderRoute: typeof ReadinessRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/proposal': {
+      id: '/proposal'
+      path: '/proposal'
+      fullPath: '/proposal'
+      preLoaderRoute: typeof ProposalRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/pricing': {
+      id: '/pricing'
+      path: '/pricing'
+      fullPath: '/pricing'
+      preLoaderRoute: typeof PricingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/gig': {
+      id: '/gig'
+      path: '/gig'
+      fullPath: '/gig'
+      preLoaderRoute: typeof GigRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -53,7 +217,25 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  GigRoute: GigRoute,
+  PricingRoute: PricingRoute,
+  ProposalRoute: ProposalRoute,
+  ReadinessRoute: ReadinessRoute,
+  ReplyRoute: ReplyRoute,
+  ResourcesRoute: ResourcesRoute,
+  RoadmapRoute: RoadmapRoute,
+  SkillMatchRoute: SkillMatchRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
+
+import type { getRouter } from './router.tsx'
+import type { startInstance } from './start.ts'
+declare module '@tanstack/react-start' {
+  interface Register {
+    ssr: true
+    router: Awaited<ReturnType<typeof getRouter>>
+    config: Awaited<ReturnType<typeof startInstance.getOptions>>
+  }
+}
