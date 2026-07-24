@@ -44,8 +44,12 @@ Tools and Technologies Used
 - AI models integrated through the application
 
 Screenshots
+<img width="674" height="520" alt="Screenshot 2026-07-24 110507" src="https://github.com/user-attachments/assets/429ae3c1-5835-47e3-9796-e86bb0cfbc68" />
+<img width="662" height="505" alt="Screenshot 2026-07-24 110531" src="https://github.com/user-attachments/assets/0fe0a5bc-6ee3-487e-99d8-c8bbe35b57f7" />
+<img width="420" height="411" alt="Screenshot 2026-07-24 110554" src="https://github.com/user-attachments/assets/964a6422-0cce-4435-afe3-429e6ae86255" />
+<img width="664" height="566" alt="Screenshot 2026-07-24 110656" src="https://github.com/user-attachments/assets/d64e9683-f8b0-4126-8aac-682d2eddd584" />
+<img width="668" height="566" alt="Screenshot 2026-07-24 110606" src="https://github.com/user-attachments/assets/795324b3-ed81-4e0a-acb4-fa3737b35d27" />
 
-(Add screenshots of your working application here)
 
 Examples:
 
