@@ -10,7 +10,7 @@ FreelanceLaunch AI solves this problem by providing AI-based guidance and practi
 
 Live Application URL
 
-"FreelanceLaunch AI" (PASTE_YOUR_LIVE_APP_URL_HERE)
+"FreelanceLaunch AI" https://freelance-guide-ai.lovable.app/
 
 Features
 
