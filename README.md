@@ -44,11 +44,17 @@ Tools and Technologies Used
 - AI models integrated through the application
 
 Screenshots
-<img width="674" height="520" alt="Screenshot 2026-07-24 110507" src="https://github.com/user-attachments/assets/429ae3c1-5835-47e3-9796-e86bb0cfbc68" />
-<img width="662" height="505" alt="Screenshot 2026-07-24 110531" src="https://github.com/user-attachments/assets/0fe0a5bc-6ee3-487e-99d8-c8bbe35b57f7" />
-<img width="420" height="411" alt="Screenshot 2026-07-24 110554" src="https://github.com/user-attachments/assets/964a6422-0cce-4435-afe3-429e6ae86255" />
-<img width="664" height="566" alt="Screenshot 2026-07-24 110656" src="https://github.com/user-attachments/assets/d64e9683-f8b0-4126-8aac-682d2eddd584" />
-<img width="668" height="566" alt="Screenshot 2026-07-24 110606" src="https://github.com/user-attachments/assets/795324b3-ed81-4e0a-acb4-fa3737b35d27" />
+<img width="674" height="520" alt="Screenshot 2026-07-24 110507" src="https://github.com/user-attachments/assets/dd5205af-3dcd-484f-a05d-3aa8f7f6e651" />
+<img width="1349" height="621" alt="Screenshot 2026-07-24 140352" src="https://github.com/user-attachments/assets/f2431dd8-7f11-43ad-8ee7-aaf61d5da0d1" />
+<img width="1354" height="622" alt="Screenshot 2026-07-24 140329" src="https://github.com/user-attachments/assets/2bba7d03-b759-43b7-933a-5f033278a6db" />
+<img width="1352" height="655" alt="Screenshot 2026-07-24 140308" src="https://github.com/user-attachments/assets/3858980e-75f8-4de0-913c-b44ffadf0c74" />
+<img width="1342" height="706" alt="Screenshot 2026-07-24 140218" src="https://github.com/user-attachments/assets/41247831-0c4c-4f57-a0f3-3a89e1fa11da" />
+<img width="420" height="411" alt="Screenshot 2026-07-24 110554" src="https://github.com/user-attachments/assets/75879f27-385a-4a3f-84dd-a09bba633230" />
+<img width="662" height="505" alt="Screenshot 2026-07-24 110531" src="https://github.com/user-attachments/assets/81766b49-4abf-4472-b0f5-4c11564605a1" />
+
+
+
+
 
 
 Examples:
