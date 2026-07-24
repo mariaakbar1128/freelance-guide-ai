@@ -72,9 +72,9 @@ Requirements
 
 Installation
 
-Clone the repository:
+Clone the repository: https://github.com/mariaakbar1128/freelance-guide-ai
 
-git clone PASTE_YOUR_GITHUB_REPOSITORY_LINK_HERE
+git clone 
 
 Install dependencies:
 
