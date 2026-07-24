@@ -75,24 +75,28 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "FreelanceLaunch AI — Launch Your Freelancing Career with AI Guidance" },
+      { title: "FreelanceLaunch AI" },
       {
         name: "description",
         content:
-          "AI mentor platform for students and beginners: skill matching, proposal writing, gig generation, pricing, and personalized roadmaps to start freelancing on Fiverr and Upwork.",
+          "Your AI-powered dashboard to launch and grow a freelancing career. Get matched to skills, write proposals, generate Fiver gigs  and build a personalize roadmap.",
       },
       { name: "author", content: "FreelanceLaunch AI" },
       {
         property: "og:title",
-        content: "FreelanceLaunch AI — Launch Your Freelancing Career",
+        content: "FreelanceLaunch AI",
       },
       {
         property: "og:description",
         content:
-          "Your AI mentor for starting a successful freelancing career. Skill match, proposals, gigs, pricing, and roadmaps.",
+          "Your AI-powered dashboard to launch and grow a freelancing career. Get matched to skills, write proposals, generate Fiver gigs  and build a personalize roadmap.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "FreelanceLaunch AI" },
+      { name: "twitter:description", content: "Your AI-powered dashboard to launch and grow a freelancing career. Get matched to skills, write proposals, generate Fiver gigs  and build a personalize roadmap." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/53ee4e5d-0e19-4350-be8e-4fd64e142182/id-preview-cc0fbf04--dba19249-2354-4175-8a0b-4adfbee3b1f4.lovable.app-1784870199992.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/53ee4e5d-0e19-4350-be8e-4fd64e142182/id-preview-cc0fbf04--dba19249-2354-4175-8a0b-4adfbee3b1f4.lovable.app-1784870199992.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },

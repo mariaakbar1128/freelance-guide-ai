@@ -22,16 +22,16 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Dashboard — FreelanceLaunch AI" },
+      { title: "FreelanceLaunch AI" },
       {
         name: "description",
         content:
-          "Your AI-powered dashboard to launch and grow a freelancing career. Get matched to skills, write proposals, and build a roadmap.",
+          "Your AI-powered dashboard to launch and grow a freelancing career. Get matched to skills, write proposals, generate Fiver gigs  and build a personalize roadmap.",
       },
-      { property: "og:title", content: "FreelanceLaunch AI Dashboard" },
+      { property: "og:title", content: "FreelanceLaunch AI" },
       {
         property: "og:description",
-        content: "Launch your freelancing career with AI guidance.",
+        content: "Your AI-powered dashboard to launch and grow a freelancing career. Get matched to skills, write proposals, generate Fiver gigs  and build a personalize roadmap.",
       },
     ],
   }),
